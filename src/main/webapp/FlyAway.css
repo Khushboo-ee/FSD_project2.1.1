@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+
+@font-face {
+	font-family: title;
+	src: url(/aloevera.ttf);
+}
+.error{
+	display: flex;
+	justify-content: center;
+	color: red;
+}
+.success{
+	display: flex;
+	justify-content: center;
+	color: green;
+}
+
+.heading {
+	display: flex;
+	justify-content: center;
+	font-family: title;
+	background-repeat: no-repeat;
+	font-size: 25px;
+	color: rgb(72, 72, 229);
+}
+
+.taskbar {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: space-between;
+	font-family: cursive;
+	background-color: rgb(212, 212, 245);
+	font-size: 21px;
+}
+
+#home {
+	padding: 5px 8px;
+}
+
+#news {
+	padding: 5px 8px;
+}
+
+#contact {
+	padding: 5px 8px;
+}
+
+#admin {
+	padding: 5px 8px;
+}
+
+#student {
+	padding: 5px 8px;
+}
+
+#contact {
+	padding: 5px 8px;
+}
+
+a {
+	text-decoration: none;
+	color: black
+}
+
+a:hover {
+	color: rgb(160, 21, 21);
+}
+
+.abouthead {
+	display: flex;
+	justify-content: flex-start;
+}
+
+#about {
+	background-color: rgb(212, 212, 245);
+	border: 0.5px solid rgb(72, 72, 229);
+	padding: 8px;
+	margin: 15px;
+}
+
+#vision {
+	background-color: rgb(212, 212, 245);
+	border: 0.5px solid rgb(72, 72, 229);
+	padding: 8px;
+	margin: 15px;
+}
+
+.options {
+	text-align: center;
+	width: 40%;
+	height: 50%;
+	margin: auto;
+	border: 1px solid rgb(72, 72, 229);
+	padding: 10px;
+}
+
+.opt {
+	height: fit-content;
+	width: max-content;
+}
+
+#add {
+	text-align: center;
+}
+
+.next {
+	align-content: space-between;
+	padding: 5px;
+}
